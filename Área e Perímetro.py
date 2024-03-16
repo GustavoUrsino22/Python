@@ -13,3 +13,4 @@ lado_triangulos1 = int (input('Qual é o lado1 do triângulo : '))
 lado_triangulo2 = int(input('Qual é a lado2 do triângulo : '))
 area_triangulo = (altura_triangulo*comprimento_triangulo)/2
 perimetro_triangulo = comprimento_triangulo+lado_triangulos1+lado_triangulo2
+print('A área do triângulo é {} e o perímetro é {}'.format(area_triangulo,perimetro_triangulo))
